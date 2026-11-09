@@ -161,6 +161,7 @@ h3 { font-size: 1.24rem; }
   width: 100%; height: 190px; object-fit: contain;
   border-radius: 1rem; border: 1px solid var(--line); background: #fff; padding: 0.35rem;
 }
+.project-thumb.photo { object-fit: cover; object-position: 50% 70%; padding: 0; height: 220px; }
 .project-affiliation { font-size: 0.92rem; line-height: 1.5; }
 .project-affiliation strong { color: var(--text); }
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.45rem; }
