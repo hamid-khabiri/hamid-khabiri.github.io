@@ -171,6 +171,8 @@ h3 { font-size: 1.24rem; }
 }
 .text-link { margin-top: auto; color: var(--accent); font-weight: 800; text-decoration: none; }
 .text-link:hover { text-decoration: underline; }
+.card-links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.card-links .text-link { margin-top: 0; }
 
 /* Publications */
 .publication-accordion-list { display: grid; gap: 1rem; }
