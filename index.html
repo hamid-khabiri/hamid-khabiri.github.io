@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamid Khabiri, PhD | Robotics Engineering, Mechanical Design &amp; Motion Control Portfolio</title>
+  <meta name="description" content="Portfolio of Hamid Khabiri, PhD — robotics engineer specializing in mechanical design, electromechanical integration, Beckhoff TwinCAT/EtherCAT motion control and rehabilitation robotics.">
+  <meta name="author" content="Hamid Khabiri">
+  <meta property="og:title" content="Hamid Khabiri, PhD | Robotics Engineering Portfolio">
+  <meta property="og:description" content="Mechanical design, motion control and system integration for custom robotic systems.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">HK</span><span>Hamid Khabiri</span></a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#news">News</a>
+    <a href="#documents">Documents</a>
+    <a href="#publications">Publications</a>
+    <a href="#awards">Awards</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Robotics Engineering · Mechanical Design · Low-Level Control · System Integration</p>
+      <h1>Designing and building custom robotic systems, from mechanism concept to real-time control.</h1>
+      <p class="hero-text">Robotics engineer with 8+ years of research and industry experience developing custom robotic systems from concept to functional hardware: mechanical design and fabrication, electromechanical integration, real-time low-level control in Beckhoff TwinCAT&nbsp;3 over EtherCAT, and layered safety verification.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="assets/resumes/Hamid_Khabiri_Resume.pdf" download>Download Resume</a>
+        <a class="button primary" href="assets/resumes/Hamid_Khabiri_CV.pdf" download>Download CV</a>
+        <a class="button secondary" href="#projects">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-card profile-card" aria-label="Profile photo and portfolio highlights">
+      <!-- To use your own photo: save it as assets/figures/profile.jpg (portrait, about 4:5). -->
+      <img class="profile-photo" src="assets/figures/profile.jpg" alt="Hamid Khabiri"
+           onerror="this.onerror=null;this.src='assets/figures/profile-placeholder.svg';">
+      <div class="stat-grid">
+        <div><strong>Mechanical Design</strong><span>SolidWorks mechanisms and assemblies, engineering calculations, tolerancing, DFM and manufacturing drawings</span></div>
+        <div><strong>Low-Level Control</strong><span>TwinCAT&nbsp;3 / EtherCAT, Maxon EPOS4 drives, cascaded PID, impedance and admittance control, model-based feedforward</span></div>
+        <div><strong>System Integration &amp; Safety</strong><span>Wiring, encoders and F/T sensors, hardware bring-up, emergency stop, limit switches, STO and virtual walls</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWS ================= -->
+  <section class="section" id="news">
+    <div class="section-heading">
+      <div><p class="eyebrow">News</p><h2>Recent updates</h2></div>
+      <p>Highlights from recent research, intellectual property, and training activities.</p>
+    </div>
+    <div class="news-grid">
+      <article class="content-card news-card">
+        <p class="news-date">2026</p>
+        <h3>U.S. patent application published</h3>
+        <p><em>A Wearable Assistive Robot</em> was published as U.S. Patent Application US20260109022A1, based on my PhD work on a wearable hand-assistive robot.</p>
+      </article>
+      <article class="content-card news-card">
+        <p class="news-date">2026</p>
+        <h3>Selected for Lab2Market Health: Validate</h3>
+        <p>Selected as a participant in the Lab2Market Health: Validate program, covering customer discovery and commercialization training for rehabilitation technologies.</p>
+      </article>
+      <article class="content-card news-card">
+        <p class="news-date">2026</p>
+        <h3>Review paper under review</h3>
+        <p><em>A Comprehensive Review of End-Effector Rehabilitation Robots with a Focus on the Shoulder and Elbow Joints</em> is under review at Robotics and Autonomous Systems.</p>
+      </article>
+      <article class="content-card news-card">
+        <p class="news-date">2025</p>
+        <h3>Poster at RISEx 2025, Edmonton</h3>
+        <p>Presented the poster <em>A Review of End-Effector Rehabilitation Robots for Shoulder and Elbow Joints</em>.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section-heading">
+      <div><p class="eyebrow">About</p><h2>Background</h2></div>
+      <p>Hands-on engineering of complete electromechanical prototypes: mechanism design, fabrication, wiring, control software and verification.</p>
+    </div>
+    <div class="content-card">
+      <p>I am a robotics engineer and Postdoctoral Fellow in Robotics R&amp;D at the University of Alberta, Edmonton. My work covers the full development cycle of custom robotic systems: defining requirements, designing mechanisms and transmissions in SolidWorks, sizing and selecting motors, drives, encoders and sensors, fabricating and assembling prototypes, wiring the electrical system, and bringing the robot up under real-time control.</p>
+      <p>On the control side, I develop multi-axis motion control in Beckhoff TwinCAT&nbsp;3 over EtherCAT, with cascaded control between Maxon EPOS4 drives and outer-loop PID controllers in TwinCAT, impedance and admittance control, kinematics and trajectory planning, and model-based feedforward from a Pinocchio dynamics model with friction modeling.</p>
+      <p>Most of my projects are in rehabilitation and medical robotics, including a 3-DOF upper-limb rehabilitation robot, a wearable cable-driven hand orthosis, an fMRI-compatible wrist robot, and the mechanical design of a laparoscopic surgery simulator. I care about hardware that is safe, testable and manufacturable: clear engineering calculations, documented drawings, layered hardware and software safety, and structured bench verification before any user testing.</p>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section class="section" id="education">
+    <div class="section-heading">
+      <div><p class="eyebrow">Education</p><h2>Academic background</h2></div>
+      <p>Training in medical robotics, mechanical engineering and biomechanics.</p>
+    </div>
+    <div class="logo-list">
+      <!-- To add a university logo, replace the <div class="logo-tile"> with: <img src="assets/logos/tums.png" alt="TUMS logo"> -->
+      <div class="content-card logo-card">
+        <div class="logo-tile">TUMS</div>
+        <div>
+          <h3>Tehran University of Medical Sciences, Iran</h3>
+          <p class="role">PhD, Medical Robotics</p>
+          <p class="dates">2022</p>
+          <p>Thesis: Design, prototyping and clinical evaluation of an active assistive robotic orthosis for hemiplegic patients’ hand.</p>
+        </div>
+      </div>
+      <div class="content-card logo-card">
+        <div class="logo-tile">SUT</div>
+        <div>
+          <h3>Sahand University of Technology, Iran</h3>
+          <p class="role">MSc, Mechanical Engineering (Biomechanics)</p>
+          <p class="dates">2014</p>
+          <p>Thesis: The effect of eccentric exercise on isometric contraction of knee extensor muscles.</p>
+        </div>
+      </div>
+      <div class="content-card logo-card">
+        <div class="logo-tile">IAU</div>
+        <div>
+          <h3>Islamic Azad University, Science and Research Branch, Iran</h3>
+          <p class="role">BSc, Biomedical Engineering (Biomechanics)</p>
+          <p class="dates">2011</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="section-heading">
+      <div><p class="eyebrow">Experience</p><h2>Professional experience</h2></div>
+      <p>Research and industry roles focused on designing, building and integrating electromechanical systems.</p>
+    </div>
+    <div class="experience-list">
+      <div class="content-card experience-card">
+        <div class="logo-tile">UofA</div>
+        <div>
+          <h3>University of Alberta, Canada</h3>
+          <p class="role">Postdoctoral Fellow – Robotics R&amp;D</p>
+          <p class="dates">November 2024 – Present · Edmonton, Alberta</p>
+          <ul>
+            <li>Independently conceived, designed and built a custom 3-DOF upper-limb robotic system, from requirements and mechanism architecture through fabrication, assembly, electrical integration and testing.</li>
+            <li>Designed a capstan-based rotary transmission, a differential timing-belt mechanism and a forearm/wrist end-effector in SolidWorks; completed calculations, tolerances, material selection, DFM and CNC manufacturing drawings.</li>
+            <li>Selected, assembled and integrated three Maxon BLDC motors with EPOS4 EtherCAT drives, transmissions, absolute encoders and force/torque sensing; wired the electrical hardware and calibrated sensor feedback.</li>
+            <li>Developed real-time, multi-axis motion control in TwinCAT&nbsp;3 (Structured Text, PLC/NC) over EtherCAT; configured PDO/SDO mapping and position/velocity/torque modes, and diagnosed fieldbus faults.</li>
+            <li>Implemented cascaded control (EPOS4 inner current, velocity and position loops tuned in EPOS Studio, with outer-loop joint PID in TwinCAT), FK/IK, Jacobian-based control, trajectory planning, impedance control and admittance control using force/torque sensor feedback.</li>
+            <li>Built a URDF dynamics model of the planar robot in Pinocchio, streamed to TwinCAT via ADS, and combined it with Coulomb–viscous friction modeling for model-based feedforward.</li>
+            <li>Developed a TwinCAT HMI and Unity rehabilitation games connected to live robot motion via ADS.</li>
+            <li>Performed hazard and risk assessments and implemented layered safety: emergency stop, hardware limit switches, Safe Torque Off on the drives, software virtual walls, an HMI stop and fault handling; iterated the design through bench verification, preliminary usability observations with five participants and clinician feedback.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-card experience-card">
+        <div class="logo-tile">NSR</div>
+        <div>
+          <h3>Noavaran Sanat Rabin (NSR), Iran</h3>
+          <p class="role">Mechanical Designer</p>
+          <p class="dates">April 2023 – September 2024 · Tehran, Iran</p>
+          <ul>
+            <li>Designed, fabricated and assembled the mechanical system of a cell-culture incubator with real-time image monitoring, including material and component selection and production planning.</li>
+            <li>Developed mechanical components for a stereotactic head frame and performed fabrication planning and assembly.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-card experience-card">
+        <div class="logo-tile">Sina</div>
+        <div>
+          <h3>Sina Robotics and Medical Innovators, Iran</h3>
+          <p class="role">Mechanical Engineer</p>
+          <p class="dates">January 2019 – December 2020 · Tehran, Iran</p>
+          <ul>
+            <li>Designed and fabricated the mechanical structure and mechanisms of the SinaSim laparoscopic surgery simulator, preparing mechanical calculations, CAD assemblies and manufacturing drawings.</li>
+            <li>Assembled, tested, troubleshot and improved mechanical subsystems through iterative prototype development.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section-heading">
+      <div><p class="eyebrow">Projects</p><h2>Selected work</h2></div>
+      <p>Robotic and electromechanical systems I designed, built or integrated, followed by biomechanics and ergonomics research.</p>
+    </div>
+
+    <h3 class="subsection-title">Robotics &amp; mechatronic systems</h3>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="tag-row"><span>Mechanism design</span><span>TwinCAT 3 / EtherCAT</span><span>Cascaded PID</span><span>Impedance / admittance</span><span>Safety</span></div>
+        <!-- Add a photo as assets/figures/upper_limb_rehab_robot.jpg -->
+        <img class="project-thumb" loading="lazy" src="assets/figures/upper_limb_rehab_robot.jpg" alt="3-DOF upper-limb rehabilitation robotic system"
+             onerror="this.onerror=null;this.src='assets/figures/placeholder.svg';">
+        <h3>3-DOF Upper-Limb Rehabilitation Robotic System</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> University of Alberta, Canada</p>
+        <p>Independently designed and built: capstan and differential timing-belt mechanisms, Maxon EPOS4 drives over EtherCAT, cascaded PID, impedance and admittance control, Pinocchio-based feedforward via ADS, and layered safety.</p>
+        <a class="text-link" href="projects/upper-limb-rehabilitation-robot.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Wearable robotics</span><span>Underactuated mechanism</span><span>Bowden cable</span><span>Force estimation</span><span>Clinical testing</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/roboassist_hand_orthosis.jpg" alt="RoboAssist wearable hand-assistive robot">
+        <h3>RoboAssist: Wearable Hand-Assistive Robot for Stroke Patients</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Tehran University of Medical Sciences, Iran (PhD thesis)</p>
+        <p>A cable-driven, underactuated hand orthosis with a 90&nbsp;g wearable part, a validated Bowden-cable friction model for fingertip-force estimation (16.5% mean error), Maxon-driven C++/MFC control and clinical testing, developed entirely by me.</p>
+        <a class="text-link" href="projects/wearable-hand-orthosis.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Rehabilitation robotics</span><span>Fabrication</span><span>Mechanical assembly</span><span>Patient testing</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/wrist_finger_rehab_robot.jpg" alt="Wrist and finger rehabilitation robot prototyping process">
+        <h3>Robotic Physiotherapy System for Wrist and Fingers</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Tehran University of Medical Sciences, Iran</p>
+        <p>A 4-DOF electromechanical wrist–finger rehabilitation device developed from clinical observation and tested with post-stroke patients. I was responsible for fabrication and assembly of the robot.</p>
+        <a class="text-link" href="projects/wrist-finger-rehabilitation-robot.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>MRI compatibility</span><span>Pneumatic actuation</span><span>Non-metallic design</span><span>fMRI</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/fmri_wrist_robot.jpg" alt="fMRI-compatible wrist robot">
+        <h3>fMRI-Compatible Wrist Robot for Brain Activation Assessment</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Research collaboration, Tehran University of Medical Sciences, Iran</p>
+        <p>A 2-DOF pneumatically actuated wrist robot built entirely from non-metallic parts for use inside the MRI room. I designed, manufactured and assembled the robot.</p>
+        <a class="text-link" href="projects/fmri-compatible-wrist-robot.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Medical simulator</span><span>Mechanism design</span><span>Fabrication</span><span>Industry</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/sinasim_laparoscopic_simulator.jpg" alt="SinaSim laparoscopic surgery simulator">
+        <h3>SinaSim Laparoscopic Surgery Simulator</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Sina Robotics and Medical Innovators, Iran</p>
+        <p>A training simulator combining computer hardware, a mechanical user interface and software modules. I designed and fabricated its mechanical structure and mechanisms.</p>
+        <a class="text-link" href="projects/sinasim-laparoscopic-simulator.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Product design</span><span>Material selection</span><span>Manufacturing</span><span>Laboratory equipment</span></div>
+        <!-- Add a photo as assets/figures/cell_culture_incubator.jpg -->
+        <img class="project-thumb" loading="lazy" src="assets/figures/cell_culture_incubator.jpg" alt="Cell-culture incubator with image monitoring"
+             onerror="this.onerror=null;this.src='assets/figures/placeholder.svg';">
+        <h3>Cell-Culture Incubator with Real-Time Image Monitoring</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Noavaran Sanat Rabin (NSR), Iran</p>
+        <p>Designed, fabricated and assembled the mechanical system of a cell-culture incubator with real-time image monitoring, including material and component selection and production planning.</p>
+        <a class="text-link" href="projects/cell-culture-incubator.html">Read project →</a>
+      </article>
+    </div>
+
+    <h3 class="subsection-title" style="margin-top:2.5rem">Biomechanics &amp; ergonomics research</h3>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="tag-row"><span>Biomechanics</span><span>EMG</span><span>Isokinetic dynamometry</span><span>AnyBody</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/eccentric_exercise_study.jpg" alt="Eccentric exercise experimental task">
+        <h3>Effect of Eccentric Exercise on Knee Extensor Contraction</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> Sahand University of Technology, Iran (MSc thesis)</p>
+        <p>Experimental study with 15 volunteers using an isokinetic dynamometer, EMG and torque measurement, and musculoskeletal modelling. Data acquisition, analysis and modelling were done by me.</p>
+        <a class="text-link" href="projects/eccentric-exercise-knee-study.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Ergonomics</span><span>EMG</span><span>Force estimation</span><span>Mentorship</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/sonographer_ergonomics.jpg" alt="Sonographer muscle activity and force estimation setup">
+        <h3>Musculoskeletal Symptoms and Hand Forces Among Sonographers</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> MSc project in ergonomics (co-supervision)</p>
+        <p>Assessment of work postures, muscle activity and grip/push forces during sonography. I managed the project and mentored the MSc student from the first step.</p>
+        <a class="text-link" href="projects/sonographer-ergonomics.html">Read project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span>Anthropometry</span><span>CT imaging</span><span>3D modelling</span><span>Mentorship</span></div>
+        <img class="project-thumb" loading="lazy" src="assets/figures/ear_ct_anthropometry.jpg" alt="Anthropometric analysis of the ear using CT images">
+        <h3>Anthropometric Analysis of the Ear Using CT Images</h3>
+        <p class="project-affiliation"><strong>Affiliation:</strong> MSc project in ergonomics (co-supervision)</p>
+        <p>38 linear, angular and circumference dimensions measured from 210 CT scans to support ergonomic design of ear-related products. I managed the project and mentored the MSc student.</p>
+        <a class="text-link" href="projects/ear-ct-anthropometry.html">Read project →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= DOCUMENTS ================= -->
+  <section class="section" id="documents">
+    <div class="section-heading">
+      <div><p class="eyebrow">Documents</p><h2>Resume and CV</h2></div>
+      <p>Download a concise one-page resume or the detailed CV with full publications, patents and teaching.</p>
+    </div>
+    <div class="resume-grid">
+      <div class="content-card resume-card">
+        <div class="tag-row"><span>Resume</span><span>One page</span></div>
+        <h3>Resume</h3>
+        <p>A concise one-page resume focused on mechanical design, motion control, electrical integration and safety for industry robotics roles.</p>
+        <a class="button primary" href="assets/resumes/Hamid_Khabiri_Resume.pdf" download>Download Resume</a>
+      </div>
+      <div class="content-card resume-card">
+        <div class="tag-row"><span>CV</span><span>Detailed</span></div>
+        <h3>Curriculum Vitae</h3>
+        <p>A detailed CV including professional experience, engineering projects, patents, peer-reviewed publications, teaching and awards.</p>
+        <a class="button primary" href="assets/resumes/Hamid_Khabiri_CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <section class="section" id="publications">
+    <div class="section-heading">
+      <div><p class="eyebrow">Publications</p><h2>Papers, patents and theses</h2></div>
+      <p>Click each heading to expand.</p>
+    </div>
+
+    <div class="publication-accordion-list">
+
+      <details class="publication-accordion" open>
+        <summary><span>Peer-reviewed Journal Papers</span><span class="accordion-count">8</span></summary>
+        <div class="publication-list">
+          <div class="content-card publication">
+            <h3>Design and Development of a Robotic System for Hand’s Wrist-Fingers Rehabilitation</h3>
+            <p class="publication-meta">Scientia Iranica, 32(2), 2025</p>
+            <p class="authors">F. Mohandesi, A. Mirbagheri, <strong>H. Khabiri</strong>, M.M. Mirbagheri, N.N. Ansari, M. Norouzi, R. Kazemi, M. Aghanouri</p>
+            <div class="publication-links"><a href="https://doi.org/10.24200/sci.2023.59650.6362" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Development and Validation of Virtual Reality Combined with Shoulder Wheel Device for Active Rehabilitation Training</h3>
+            <p class="publication-meta">International Journal of Biomedical Engineering and Technology, 46(2), 116–137, 2024</p>
+            <p class="authors">M.R. Hosaini, <strong>H. Khabiri</strong>, H. Sharini, V. Dehlaghi, A. Safarpoor</p>
+            <div class="publication-links"><a href="https://doi.org/10.1504/IJBET.2024.141570" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Novel fMRI-Compatible Wrist Robotic Device for Brain Activation Assessment During Rehabilitation Exercise</h3>
+            <p class="publication-meta">Medical Engineering &amp; Physics, 83, 112–122, 2020</p>
+            <p class="authors">H. Sharini, N. Riyahi Alam, <strong>H. Khabiri</strong>, H. Arabalibeik, H. Hashemi, A.R. Azimi, S. Masjoodi Javadi</p>
+            <div class="publication-links"><a href="https://doi.org/10.1016/j.medengphy.2020.05.008" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Assessment of Motor Cortex in Active, Passive and Imagery Wrist Movement Using Functional MRI</h3>
+            <p class="publication-meta">Journal of Biomedical Physics &amp; Engineering, 11(4), 515–526, 2021</p>
+            <p class="authors">H. Sharini, S. Zolghadriha, N. Riyahi Alam, M. Jalalvandi, <strong>H. Khabiri</strong>, H. Arabalibeik, M. Nadimi</p>
+            <div class="publication-links"><a href="https://doi.org/10.31661/jbpe.v0i0.1034" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Investigation of Musculoskeletal Symptoms, Work Postures, Quantification of Muscle Activity, and Estimation of Grip/Push Forces Among Sonographers</h3>
+            <p class="publication-meta">Human Factors and Ergonomics in Manufacturing &amp; Service Industries, 34(6), 589–600, 2024</p>
+            <p class="authors">Z. ZangiAbadi, <strong>H. Khabiri</strong>, A. Mirbagheri, G. Halvani, M. Askarishahi, M. Nasiri</p>
+            <div class="publication-links"><a href="https://doi.org/10.1002/hfm.21051" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Anthropometric Analysis of the External Ear Using CT Scan Image by Age, Gender, and Side Among the Iranian Population</h3>
+            <p class="publication-meta">Ergonomics in Design, 33(2), 89–106, 2025</p>
+            <p class="authors">M. Nasiri, <strong>H. Khabiri</strong>, G.H. Halvani, M. MoradiAmin, F. Shamsi, Z. ZangiAbadi</p>
+            <div class="publication-links"><a href="https://doi.org/10.1177/10648046241228360" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+          <div class="content-card publication">
+            <h3>Evaluation of Bone Butterfly Fracture by Controlling the Applied Load at Different Strain Rates</h3>
+            <p class="publication-meta">Iranian Journal of Biomedical Engineering, 2016</p>
+            <p class="authors">M. Azghani, S. Kian-Bostanabad, T. Ahmadi, <strong>H. Khabiri</strong></p>
+          </div>
+          <div class="content-card publication">
+            <h3>Music-Induced Emotion Recognition Based on Feature Reduction Using PCA From EEG Signals</h3>
+            <p class="publication-meta">Frontiers in Biomedical Technologies, 11(1), 59–68, 2024</p>
+            <p class="authors"><strong>H. Khabiri</strong>, M.N. Talebi, M.F. Kamran, S. Akbari, F. Zarrin, F. Mohandesi</p>
+            <div class="publication-links"><a href="https://doi.org/10.18502/fbt.v11i1.14512" target="_blank" rel="noreferrer">DOI</a></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="publication-accordion">
+        <summary><span>Under Review</span><span class="accordion-count">1</span></summary>
+        <div class="publication-list">
+          <div class="content-card publication">
+            <h3>A Comprehensive Review of End-Effector Rehabilitation Robots with a Focus on the Shoulder and Elbow Joints</h3>
+            <p class="publication-meta">Robotics and Autonomous Systems, under review, 2026</p>
+            <p class="authors"><strong>H. Khabiri</strong>, M. Nazarahari</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="publication-accordion">
+        <summary><span>Patents &amp; Invention Disclosures</span><span class="accordion-count">5</span></summary>
+        <div class="publication-list">
+          <div class="content-card publication">
+            <h3>A Wearable Assistive Robot</h3>
+            <p class="publication-meta">U.S. Patent Application US20260109022A1, published 2026</p>
+            <p class="authors">Named inventor</p>
+          </div>
+          <div class="content-card publication">
+            <h3>Active Assistive Hand Orthosis</h3>
+            <p class="publication-meta">Iranian Patent No. 101489, 2020</p>
+            <p class="authors">Named inventor</p>
+          </div>
+          <div class="content-card publication">
+            <h3>Hand, Wrist and Finger Physiotherapy Robot</h3>
+            <p class="publication-meta">Iranian Patent No. 104035, 2021</p>
+            <p class="authors">Named inventor</p>
+          </div>
+          <div class="content-card publication">
+            <h3>MRI-Compatible Wrist Rehabilitation Robot</h3>
+            <p class="publication-meta">Iranian Patent No. 96394, 2018</p>
+            <p class="authors">Named inventor</p>
+          </div>
+          <div class="content-card publication">
+            <h3>Upper-Limb Rehabilitation Robotic System</h3>
+            <p class="publication-meta">University of Alberta Invention Disclosure D2027-0005</p>
+            <p class="authors">Named inventor</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="publication-accordion">
+        <summary><span>Thesis and Dissertation</span><span class="accordion-count">2</span></summary>
+        <div class="publication-list">
+          <div class="content-card publication">
+            <h3>Design, Prototyping and Clinical Evaluation of an Active Assistive Robotic Orthosis for Hemiplegic Patients’ Hand</h3>
+            <p class="publication-meta">PhD Thesis, Medical Robotics, Tehran University of Medical Sciences, 2022</p>
+          </div>
+          <div class="content-card publication">
+            <h3>The Effect of Eccentric Exercise on Isometric Contraction of Knee Extensor Muscles</h3>
+            <p class="publication-meta">MSc Thesis, Mechanical Engineering (Biomechanics), Sahand University of Technology, 2014</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="publication-accordion">
+        <summary><span>Talks / Presentations / Posters</span><span class="accordion-count">1</span></summary>
+        <div class="publication-list">
+          <div class="content-card publication">
+            <h3>A Review of End-Effector Rehabilitation Robots for Shoulder and Elbow Joints</h3>
+            <p class="publication-meta">Poster, RISEx 2025, Edmonton, Canada</p>
+            <p class="authors"><strong>H. Khabiri</strong>, M. Nazarahari</p>
+          </div>
+        </div>
+      </details>
+    </div>
+
+    <div class="content-card scholar-card">
+      <div>
+        <h3>ORCID</h3>
+        <p>Full and up-to-date list of publications.</p>
+      </div>
+      <a class="button secondary" href="https://orcid.org/0000-0001-7563-1788" target="_blank" rel="noreferrer">0000-0001-7563-1788</a>
+    </div>
+  </section>
+
+  <!-- ================= AWARDS ================= -->
+  <section class="section" id="awards">
+    <div class="section-heading">
+      <div><p class="eyebrow">Awards &amp; Recognition</p><h2>Awards, rankings and programs</h2></div>
+      <p>Selected recognitions related to my engineering education and research.</p>
+    </div>
+    <div class="content-card">
+      <div class="item-list">
+        <div>
+          <h3>Lab2Market Health: Validate — Selected Participant</h3>
+          <p>2026 · Customer discovery and commercialization training for rehabilitation technologies.</p>
+        </div>
+        <div>
+          <h3>Selected Researcher, Iran’s National Elites Foundation</h3>
+          <p>2023</p>
+        </div>
+        <div>
+          <h3>Ranked 2nd Nationally, PhD Entrance Examination</h3>
+          <p>2015</p>
+        </div>
+        <div>
+          <h3>Ranked 3rd in MSc Cohort</h3>
+          <p>2014 · Sahand University of Technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEACHING ================= -->
+  <section class="section" id="teaching">
+    <div class="section-heading">
+      <div><p class="eyebrow">Teaching &amp; Mentorship</p><h2>Teaching and student supervision</h2></div>
+      <p>University teaching in biomechanics, ergonomics and mechanics, and mentorship of undergraduate and graduate students.</p>
+    </div>
+    <div class="card-grid">
+      <div class="content-card">
+        <h3>Adjunct Lecturer</h3>
+        <p><strong>Shahid Sadoughi University of Medical Sciences</strong> (during PhD)</p>
+        <p>Occupational Biomechanics (5 semesters), Ergonomics in Design (4), Anthropometry (1) and Solid Mechanics (1).</p>
+      </div>
+      <div class="content-card">
+        <h3>Teaching Assistant</h3>
+        <p>Robot Kinematics and Dynamics, Tehran University of Medical Sciences (2016).</p>
+        <p>Statics, Sahand University of Technology (2013).</p>
+      </div>
+      <div class="content-card">
+        <h3>Mentorship &amp; Co-supervision</h3>
+        <p>Undergraduate and visiting-student mentorship at the University of Alberta (2025–2026).</p>
+        <p>Co-supervision of MSc projects in ergonomics and anthropometry that resulted in peer-reviewed publications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="section-heading">
+      <div><p class="eyebrow">Skills</p><h2>Technical skills</h2></div>
+      <p>Tools and methods I use in day-to-day engineering work.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Mechanical Design &amp; Manufacturing</h3>
+        <ul>
+          <li>SolidWorks mechanisms, assemblies and CNC drawings</li>
+          <li>Transmission design: capstan, differential timing belt</li>
+          <li>Actuator and bearing selection, engineering calculations</li>
+          <li>Materials, tolerances and DFM</li>
+          <li>3D-print prototyping and hands-on assembly</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Robotics Control &amp; Modeling</h3>
+        <ul>
+          <li>Cascaded PID control and tuning</li>
+          <li>Joint- and Cartesian-space control</li>
+          <li>Impedance and admittance control</li>
+          <li>FK/IK, Jacobians and trajectory planning</li>
+          <li>Dynamic modeling (URDF, Pinocchio) with Coulomb–viscous friction for model-based feedforward</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Real-Time Automation &amp; Software</h3>
+        <ul>
+          <li>Beckhoff TwinCAT 3 (Structured Text, PLC/NC, HMI)</li>
+          <li>EtherCAT: PDO/SDO configuration, synchronization and diagnostics</li>
+          <li>TwinCAT ADS, EPOS Studio</li>
+          <li>C++/MFC; Unity</li>
+          <li>MATLAB (data analysis, MSc research)</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Integration, Safety &amp; Testing</h3>
+        <ul>
+          <li>Maxon BLDC motors and EPOS4 servo drives</li>
+          <li>Absolute encoder and force/torque sensor calibration</li>
+          <li>Wiring, digital/analog I/O, hardware bring-up and fault diagnosis</li>
+          <li>Risk assessment; emergency stop, limit switches, STO, virtual walls, HMI stop</li>
+          <li>Bench verification, actuator commissioning, control-loop evaluation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="section-heading">
+      <div><p class="eyebrow">Contact</p><h2>Let’s connect</h2></div>
+      <p>For robotics engineering roles, collaborations or technical discussions, feel free to reach out.</p>
+    </div>
+    <div class="content-card">
+      <p>Email: <a href="mailto:hkhabiri@ualberta.ca">hkhabiri@ualberta.ca</a></p>
+      <p>Location: Edmonton, Alberta, Canada</p>
+      <div class="contact-links">
+        <!-- Add LinkedIn here when ready: <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noreferrer">LinkedIn</a> -->
+        <a href="https://github.com/hamid-khabiri" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://orcid.org/0000-0001-7563-1788" target="_blank" rel="noreferrer">ORCID</a>
+        <a href="assets/resumes/Hamid_Khabiri_Resume.pdf" download>Download Resume</a>
+        <a href="assets/resumes/Hamid_Khabiri_CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Hamid Khabiri. Static portfolio website.</p>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoboAssist: Wearable Hand-Assistive Robot for Stroke Patients | Hamid Khabiri</title>
+  <meta name="description" content="Design, prototyping and clinical evaluation of an active assistive robotic orthosis for the hand of hemiplegic patients. The project was executed and compl">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="../index.html"><span class="brand-mark">HK</span><span>Hamid Khabiri</span></a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#projects">Projects</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#publications">Publications</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="project-page">
+  <a class="back-link" href="../index.html#projects">← Back to projects</a>
+
+  <section class="project-hero">
+    <p class="eyebrow">Tehran University of Medical Sciences, Iran · PhD Thesis · Wearable Robotics · Underactuated Mechanisms · Clinical Evaluation</p>
+    <h1>RoboAssist: Wearable Hand-Assistive Robot for Stroke Patients</h1>
+    <p class="project-page-affiliation"><strong>Affiliation:</strong> Tehran University of Medical Sciences, Iran (PhD thesis, Medical Robotics)</p>
+    <p>Design, prototyping and clinical evaluation of an active assistive robotic orthosis for the hand of hemiplegic patients. The project was executed and completed entirely by me, from conceptual design to clinical evaluation.</p>
+    <div class="tag-row"><span>Wearable robotics</span><span>Underactuated mechanism</span><span>Bowden-cable actuation</span><span>Friction modelling</span><span>Force estimation</span><span>C++ / MFC</span><span>Clinical testing</span></div>
+  </section>
+
+  <section class="project-body">
+    <div class="content-card">
+      <h2>Project overview</h2>
+      <p>Hand function disability is a common complication of neurological disorders such as stroke, muscular dystrophy and brain injury, and it can severely reduce independence in daily tasks.</p><p>RoboAssist is a hand-assistive wearable robot that performs flexion and extension of the index and middle fingers using a single motor and a set of underactuated mechanisms. The actuator unit is separated from the hand and connected through a Bowden-cable transmission, keeping the wearable part light.</p>
+    </div>
+
+    <div class="content-card callout">
+      <h2>My contribution</h2>
+      <ul><li>Defined, designed and built the complete system as my PhD thesis: concept design, mechanical development, fabrication, electronics and actuation integration.</li><li>Designed dual underactuated mechanisms that provide adaptive grasping of objects with irregular surfaces.</li><li>Derived a friction model for all sections of the Bowden-cable mechanism and used it to estimate fingertip force from force and encoder sensors placed in the actuator unit.</li><li>Developed the actuator-side sensing and the C++/MFC control software for a Maxon motor driver, with an operator interface.</li><li>Designed and conducted the experimental and clinical evaluation tests.</li></ul>
+    </div>
+
+    <div class="two-column">
+      <div class="content-card"><h2>Design features</h2><ul><li>Index and middle finger flexion/extension driven by one motor</li><li>Dual underactuated mechanisms for adaptive, stable grasping</li><li>Wearable part weighing 90 g</li><li>Washable, durable wearable section</li><li>Actuator-side force sensor and encoder for fingertip force estimation</li></ul></div>
+      <div class="content-card"><h2>Evaluation &amp; results</h2><ul><li>Experimental tests with one healthy subject: range of motion and fingertip force in same and different finger positions, and grasping various objects.</li><li>Tests with two stroke patients and one SCI patient: Box and Block test and grip force test, with and without the device.</li><li>Average error between the friction-based force model and experiments was 16.5% over finger angles from 0° to 120°; the model was used for control-system design.</li></ul></div>
+    </div>
+
+      <figure class="figure-card" style="margin:0">
+        <img src="../assets/figures/roboassist_hand_orthosis.jpg" alt="RoboAssist: Wearable Hand-Assistive Robot for Stroke Patients" loading="lazy" onerror="this.onerror=null;this.src='../assets/figures/placeholder.svg';">
+        <figcaption class="caption">Design and manufacturing of the hand-assistive device (left) and the experimental evaluation protocol (right).</figcaption>
+      </figure>
+
+    <div class="content-card">
+      <h2>Tools and methods</h2>
+      <div class="tag-row"><span>SolidWorks</span><span>Underactuated mechanisms</span><span>Bowden cable</span><span>Friction modelling</span><span>Load cell</span><span>Encoder</span><span>Maxon motor driver</span><span>C++ / MFC</span><span>Prototyping</span><span>Box and Block test</span><span>Grip force test</span></div>
+    </div>
+
+      <div class="content-card">
+        <h2>Related publications &amp; IP</h2>
+        <ul><li>U.S. Patent Application US20260109022A1, “A Wearable Assistive Robot” (published 2026) — named inventor.</li><li>Iranian Patent No. 101489 — Active assistive hand orthosis (2020) — named inventor.</li><li>PhD Thesis, Tehran University of Medical Sciences, 2022.</li></ul>
+        
+      </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Hamid Khabiri. Static portfolio website.</p>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

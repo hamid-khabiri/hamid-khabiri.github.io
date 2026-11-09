@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-DOF Upper-Limb Rehabilitation Robotic System | Hamid Khabiri</title>
+  <meta name="description" content="A custom 3-DOF planar robotic system for upper-limb rehabilitation that I independently conceived, designed and built: from requirements and mechanism arch">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="../index.html"><span class="brand-mark">HK</span><span>Hamid Khabiri</span></a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#projects">Projects</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#publications">Publications</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="project-page">
+  <a class="back-link" href="../index.html#projects">← Back to projects</a>
+
+  <section class="project-hero">
+    <p class="eyebrow">University of Alberta, Canada · Mechanism Design · Low-Level Control · EtherCAT · Safety</p>
+    <h1>3-DOF Upper-Limb Rehabilitation Robotic System</h1>
+    <p class="project-page-affiliation"><strong>Affiliation:</strong> University of Alberta, Canada (Postdoctoral Fellow – Robotics R&amp;D, 2024 – present)</p>
+    <p>A custom 3-DOF planar robotic system for upper-limb rehabilitation that I independently conceived, designed and built: from requirements and mechanism architecture through fabrication, assembly, electrical integration, real-time control and testing.</p>
+    <div class="tag-row"><span>Mechanism design</span><span>SolidWorks</span><span>TwinCAT 3</span><span>EtherCAT</span><span>Maxon EPOS4</span><span>Cascaded PID</span><span>Impedance / admittance</span><span>Pinocchio</span><span>Safety</span></div>
+  </section>
+
+  <section class="project-body">
+    <div class="content-card">
+      <h2>Project overview</h2>
+      <p>Upper-limb rehabilitation after neurological injury requires many repetitions of guided, controlled movement. This robot is designed to move or assist the user’s arm and forearm/wrist while remaining safe, testable and manufacturable.</p><p>The system combines a capstan-based rotary transmission, a differential timing-belt mechanism and a forearm/wrist end-effector, driven by three Maxon BLDC motors with EPOS4 drives. Real-time control runs in Beckhoff TwinCAT 3 over EtherCAT, with a TwinCAT HMI and Unity rehabilitation games connected through ADS.</p>
+    </div>
+
+    <div class="content-card callout">
+      <h2>My contribution</h2>
+      <ul><li>Independently conceived, designed and built the complete system, from requirements and mechanism architecture through fabrication, assembly, electrical integration and testing.</li><li>Designed the capstan-based rotary transmission, differential timing-belt mechanism and forearm/wrist end-effector in SolidWorks; completed calculations, tolerances, material selection, DFM and CNC manufacturing drawings.</li><li>Selected, assembled and integrated three Maxon BLDC motors with EPOS4 EtherCAT drives, transmissions, absolute encoders and force/torque sensing; wired the electrical hardware and calibrated sensor feedback.</li><li>Developed real-time, multi-axis motion control in TwinCAT 3 (Structured Text, PLC/NC) over EtherCAT; configured PDO/SDO mapping and position/velocity/torque modes, and diagnosed fieldbus faults.</li><li>Implemented cascaded control: tuned the EPOS4 inner current, velocity and position loops in EPOS Studio and developed outer-loop joint PID controllers in TwinCAT.</li><li>Implemented FK/IK, Jacobian-based control and trajectory planning; developed impedance control from joint position/velocity feedback and admittance control using force/torque sensor feedback.</li><li>Built a URDF dynamics model of the planar robot in Pinocchio, streamed to TwinCAT via ADS, and combined it with Coulomb–viscous friction modeling for model-based feedforward.</li><li>Developed a TwinCAT HMI and Unity rehabilitation games connected to live robot motion via ADS.</li></ul>
+    </div>
+
+    <div class="two-column">
+      <div class="content-card"><h2>Control stack</h2><ul><li>Inner loops: EPOS4 current, velocity and position control (tuned in EPOS Studio)</li><li>Outer loops: joint PID controllers in TwinCAT 3</li><li>Impedance control from joint position/velocity feedback</li><li>Admittance control from force/torque sensor feedback</li><li>Model-based feedforward: Pinocchio rigid-body dynamics + Coulomb–viscous friction, via ADS</li><li>FK/IK, Jacobians and trajectory planning</li></ul></div>
+      <div class="content-card"><h2>Safety &amp; verification</h2><ul><li>Hazard and risk assessment</li><li>Hardware layer: emergency stop, limit switches, Safe Torque Off on the drives</li><li>Software layer: virtual walls, HMI stop and fault handling</li><li>Structured bench verification and subsystem testing</li><li>Design iterated using measured actuator performance, fault investigation, preliminary usability observations with five participants and clinician feedback</li><li>University of Alberta Invention Disclosure D2027-0005</li></ul></div>
+    </div>
+
+      <figure class="figure-card" style="margin:0">
+        <!-- Add your image as assets/figures/upper_limb_rehab_robot.jpg -->
+        <img src="../assets/figures/upper_limb_rehab_robot.jpg" alt="3-DOF Upper-Limb Rehabilitation Robotic System" loading="lazy" onerror="this.onerror=null;this.src='../assets/figures/placeholder.svg';">
+        <figcaption class="caption">3-DOF upper-limb rehabilitation robotic system (photo or CAD render).</figcaption>
+      </figure>
+
+    <div class="content-card">
+      <h2>Tools and methods</h2>
+      <div class="tag-row"><span>SolidWorks</span><span>Capstan drive</span><span>Differential timing belt</span><span>DFM</span><span>Maxon BLDC</span><span>EPOS4</span><span>EPOS Studio</span><span>TwinCAT 3</span><span>Structured Text</span><span>PLC/NC</span><span>EtherCAT PDO/SDO</span><span>TwinCAT ADS</span><span>Cascaded PID</span><span>Impedance control</span><span>Admittance control</span><span>F/T sensor</span><span>URDF</span><span>Pinocchio</span><span>Friction modeling</span><span>TwinCAT HMI</span><span>Unity</span><span>Risk assessment</span><span>STO</span></div>
+    </div>
+
+      <div class="content-card">
+        <h2>Related publications &amp; IP</h2>
+        <ul><li>University of Alberta Invention Disclosure D2027-0005 — Upper-limb rehabilitation robotic system (named inventor).</li></ul>
+        
+      </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Hamid Khabiri. Static portfolio website.</p>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
